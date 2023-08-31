@@ -27,7 +27,7 @@ async function main(data) {
 
     let info = await transporter.sendMail({
         from: email,
-        to: 'wasudev@procohat.com',
+        to: 'aneeshb35@gmail.com',
         subject: 'Response from Procohat contact form',
         text: `Name: ${name} \nEmail: ${email} \nMessage: ${message}`,
     });
